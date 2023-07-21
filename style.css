@@ -1,0 +1,190 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+main{
+  width: 1028px;
+  margin: 0 auto;
+}
+/* header design  */
+header {
+  background: #34495e;
+  text-align: center;
+  padding: 70px 0 110px 0;
+}
+/* header menu design  */
+header ul{
+  list-style: none;
+}
+header ul li{
+  display: inline-block;
+  padding: 10px;
+}
+header ul li a {
+  padding: 10px;
+  background: #e67e22;
+  text-decoration: none;
+  font-weight: bold;
+  color: #494f57;
+  font-size: 18px;
+  transition: 0.5s;
+}
+header ul li a:hover{
+  background: #cf6100;
+  transition: 0.5s;
+}
+header ul li span {
+  width: 7px;
+  height: 30px;
+  background: #fff;
+  margin: 0 auto;
+  display: block;
+}
+header ul li h1 {
+  color: #e67e22;
+  padding-top: 5px;
+}
+/* Service section design  */
+.ourService {
+  background: #e1e1e1;
+  text-align: center;
+}
+.ourService h1 {
+  font-size: 80px;
+  color: #3c5e3c;
+  padding: 50px 0px 0px 0;
+  border-bottom: 5px dashed;
+  margin-bottom: 10px;
+}
+.ourService span {
+  padding: 27px;
+  background: #eee7e7;
+  display: inline-block;
+  width: 225px;
+  margin: 30px;
+  border-radius: 20px;
+  box-shadow: 1px 3px 13px 2px #322f2f;
+  cursor: default;
+  transition: 0.5s;
+}
+.ourService span:hover{
+  background: #2992de;
+  transition: 0.5s;
+}
+/* Service Menu section  */
+
+/* icon design  */
+i.fas{
+  font-size: 85px;
+  color: #3c5e3c;
+  padding-bottom: 10px;
+}
+.serviceMenu {
+  display: flex;
+  justify-content: space-between;
+}
+.serviceMenu h2{
+  padding:  10px;
+  color: #4f0a0a;
+}
+.serviceMenu p{
+  color: #644e4e;
+}
+/* Login section design  */
+.login{
+  background: #9b59b6;
+  text-align: center;
+}
+.login span{
+  display: inline-block;
+}
+.login span img{
+  height: 400px;
+}
+.circles {
+  height: 200px;
+}
+.circles span:not(:nth-child(3)) {
+  height: 100px;
+  border: 5px dotted #e67e22;
+  width: 100px;
+  border-radius: 50%;
+  background: #34495e;
+}
+.circles span:first-child {
+  position: relative;
+  top: 50px;
+  right: 25px;
+}
+.circles span:nth-child(2) {
+  position: relative;
+  bottom: 12px;
+}
+.circles span:nth-child(3) {
+  background-image: url(https://amenaakter.com/class/Class-11/Template%20Assignment/img/jillur.jpg);
+  background-size: contain;
+  height: 130px;
+  width: 130px;
+  border: 5px solid #e67e22;
+  border-radius: 50%;
+  overflow: hidden;
+  position: relative;
+  top: 70px;
+}
+.circles span h3 {
+  position: absolute;
+  color: #5a0785;
+  background: #62ff0052;
+  padding: 70px 15px;
+  opacity: 0;
+  cursor: default;
+  transition: 0.5s;
+}
+.circles span h3:hover{
+  transition: 0.5s;
+  opacity: 1;
+}
+.circles span:nth-child(3):hover{
+  content: "Jillur Rahman";
+}
+.circles span:nth-child(4) {
+  position: relative;
+  bottom: 12px;
+}
+.circles span:nth-child(5){
+  position: relative;
+  top: 50px;
+  left: 25px;
+}
+
+form{
+  margin-top: 10px;
+  padding-bottom: 70px;
+}
+input {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 1px solid #000;
+  border-radius: 20px;
+  margin: 5px;
+  outline: none;
+}
+.btn {
+  color: #fff;
+  background: #9b59b6;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn:hover{
+  color: #9b59b6;
+  background: #fff;
+  transition: 0.5s;
+}
+/* Footer section design  */
+footer {
+background: #2c3e50;
+color: #fff;
+text-align: center;
+padding: 15px 0 40px;
+}
